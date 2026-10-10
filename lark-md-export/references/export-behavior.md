@@ -1,6 +1,6 @@
 # lark-md-export 行为详情
 
-> 本文件为 `lark-md-export` skill 的查阅副本，源文档：`JCRM-NEW-DOC/tools/lark-md-export/README.md`。
+> 本文件为 `lark-md-export` skill 的行为详情文档，与 `SKILL.md` 配套使用。
 
 ## 产物结构
 
