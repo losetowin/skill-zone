@@ -116,5 +116,5 @@ python3 ~/.qoder/skills/lark-md-export/scripts/lark_md_export.py "<文档URL>" [
 
 ## 维护说明
 
-- 脚本开发源：`JCRM-NEW-DOC/tools/lark-md-export/lark_md_export.py`；本 skill 内 `scripts/lark_md_export.py` 为交付副本——源侧迭代后同步复制并跑 `diff` 对账
-- 本 skill 位于用户级 `~/.qoder/skills/lark-md-export/`；台账 `~/.qoder/skills/README.md` 同步维护
+- 本目录即 skill 完整源（`SKILL.md` + `references/` + `scripts/`），拷贝整个目录即可分发
+- 脚本修改后须验证：`python3 -m py_compile scripts/lark_md_export.py` + 用实际文档跑一次 `--force` 导出
